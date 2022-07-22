@@ -12,6 +12,6 @@ datasource db {
 
 model Webhook {
     id String @id @default(cuid())
-    url String
+    url String @unique
     isTeams Boolean
 }

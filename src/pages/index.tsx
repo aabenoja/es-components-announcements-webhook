@@ -83,13 +83,13 @@ const Home: NextPage = () => {
 
       <DarkModeToggle className="float-right" />
 
-      <main className="container mx-auto flex flex-col items-center justify-center h-screen p-4">
-        <h1 className="text-5xl md:text-[5rem] leading-normal font-extrabold text-gray-700 dark:text-white">
+      <main className="container mx-auto flex flex-col justify-center h-screen p-4">
+        <h1 className="text-5xl md:text-[5rem] leading-normal font-extrabold text-gray-700 dark:text-white text-center">
           ES Components Announcements
         </h1>
-        <p className="text-1xl md:text-[2rem] leading normal text-gray-700 dark:text-white">Receive release announcements with webhooks!</p>
+        <p className="text-1xl md:text-[2rem] leading normal text-gray-700 dark:text-white text-center">Receive release announcements with webhooks!</p>
 
-        <section>
+        <section className="my-4">
           <WebhookSubmission />
         </section>
       </main>
